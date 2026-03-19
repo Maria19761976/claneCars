@@ -1,0 +1,63 @@
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #0d1f35;
+  min-height: 100vh;
+}
+
+.tarjeta {
+  background: #8a9db5;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.tarjeta-imagen {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0d1f35;
+  margin-bottom: 1.2rem;
+}
+
+.tarjeta h3 {
+  font-size: 1.5rem;
+  color: #1a2e45;
+  margin-bottom: 0.3rem;
+}
+
+.tarjeta-pais {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta-cargo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0d1f35;
+  margin-bottom: 1rem;
+}
+
+.tarjeta-testimonio {
+  font-size: 1rem;
+  color: #2d3748;
+  line-height: 1.7;
+  font-style: italic;
+}
